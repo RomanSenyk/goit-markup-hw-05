@@ -4,47 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <!-- Modern Normalize -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!-- Header -->
     <header class="header">
       <div class="container header-container">
-        <nav class="header-navigation">
-          <a class="logo header-logo" href="./index.html"
-            >Web<span class="logo-accent-header">Studio</span></a
+        <nav class="header-nav">
+          <a href="./index.html" class="logo header-logo"
+            >WEB<span class="logo-accent">STUDIO</span></a
           >
           <ul class="nav-list">
             <li class="nav-item">
-              <a class="nav-link current" href="./index.html">Studio</a>
+              <a href="./index.html" class="nav-link active">Studio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Portfolio</a>
+              <a href="#" class="nav-link">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Contacts</a>
+              <a href="#" class="nav-link">Contacts</a>
             </li>
           </ul>
         </nav>
-        <address class="contacts">
-          <ul class="contacts-list">
-            <li class="contacts-item">
-              <a class="contacts-link" href="mailto:info@devstudio.com"
+        <address class="header-address">
+          <ul class="address-list">
+            <li class="address-item">
+              <a href="mailto:info@devstudio.com" class="address-link"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="contacts-item">
-              <a class="contacts-link" href="tel:+110001111111"
+            <li class="address-item">
+              <a href="tel:+110001111111" class="address-link"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -55,26 +58,23 @@
 
     <main>
       <!-- Hero Section -->
-      <section class="hero-section">
+      <section class="hero">
         <div class="container hero-container">
-          <h1 class="hero-title">
-            Effective Solutions<br />
-            for Your Business
-          </h1>
-          <button type="button" class="hero-button" data-modal-open>
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button type="button" class="hero-btn" data-modal-open>
             Order Service
           </button>
         </div>
       </section>
 
       <!-- Features Section -->
-      <section class="features-section">
+      <section class="features">
         <div class="container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="features-list">
             <li class="features-item">
-              <div class="features-icon-box">
-                <svg class="features-icon" width="64" height="64">
+              <div class="features-icon-wrap">
+                <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
@@ -85,8 +85,8 @@
               </p>
             </li>
             <li class="features-item">
-              <div class="features-icon-box">
-                <svg class="features-icon" width="64" height="64">
+              <div class="features-icon-wrap">
+                <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
@@ -97,27 +97,27 @@
               </p>
             </li>
             <li class="features-item">
-              <div class="features-icon-box">
-                <svg class="features-icon" width="64" height="64">
+              <div class="features-icon-wrap">
+                <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
               <h3 class="features-subtitle">Diligence</h3>
               <p class="features-text">
-                Research and confirm brands with the strongest digital growth
-                opportunities and minimize risk.
+                Research and confirm brands that include the strongest digital
+                growth opportunities and implement them.
               </p>
             </li>
             <li class="features-item">
-              <div class="features-icon-box">
-                <svg class="features-icon" width="64" height="64">
+              <div class="features-icon-wrap">
+                <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
               <h3 class="features-subtitle">Technologies</h3>
               <p class="features-text">
-                Design practice focused on digital experiences making feel
-                high-quality in the modern world.
+                Design practice focused on digital experiences making feel a
+                deep sense of connection with the product.
               </p>
             </li>
           </ul>
@@ -125,7 +125,7 @@
       </section>
 
       <!-- Team Section -->
-      <section class="team-section">
+      <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
@@ -141,28 +141,28 @@
                 <p class="team-text">Product Designer</p>
                 <ul class="social-list">
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -183,28 +183,28 @@
                 <p class="team-text">Frontend Developer</p>
                 <ul class="social-list">
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -225,28 +225,28 @@
                 <p class="team-text">Marketing</p>
                 <ul class="social-list">
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -267,28 +267,28 @@
                 <p class="team-text">UI Designer</p>
                 <ul class="social-list">
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-item">
-                    <a class="social-link" href="">
+                    <a href="#" class="social-link">
                       <svg class="social-icon" width="16" height="16">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                       </svg>
@@ -302,20 +302,21 @@
       </section>
 
       <!-- Portfolio Section -->
-      <section class="portfolio-section">
+      <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-item">
-              <div class="portfolio-card-wrap">
+              <div class="portfolio-cover-wrap">
                 <img
-                  src="./images/img-1.jpg"
+                  src="./images/portfolio-1.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
                 />
-                <p class="portfolio-overlay">
-                  14 Kwai Chow Street Deep Water Bay, Hong Kong
+                <p class="portfolio-cover-text">
+                  14 Kwaii Pages Work Demonstration App, Tracker App, Tax
+                  Massage App, Custom UI Storage.
                 </p>
               </div>
               <div class="portfolio-card-content">
@@ -324,15 +325,16 @@
               </div>
             </li>
             <li class="portfolio-item">
-              <div class="portfolio-card-wrap">
+              <div class="portfolio-cover-wrap">
                 <img
-                  src="./images/img-2.jpg"
+                  src="./images/portfolio-2.jpg"
                   alt="Cashless Payment"
                   width="360"
                   height="300"
                 />
-                <p class="portfolio-overlay">
-                  14 Kwai Chow Street Deep Water Bay, Hong Kong
+                <p class="portfolio-cover-text">
+                  14 Kwaii Pages Work Demonstration App, Tracker App, Tax
+                  Massage App, Custom UI Storage.
                 </p>
               </div>
               <div class="portfolio-card-content">
@@ -341,15 +343,16 @@
               </div>
             </li>
             <li class="portfolio-item">
-              <div class="portfolio-card-wrap">
+              <div class="portfolio-cover-wrap">
                 <img
-                  src="./images/img-3.jpg"
+                  src="./images/portfolio-3.jpg"
                   alt="Meditation App"
                   width="360"
                   height="300"
                 />
-                <p class="portfolio-overlay">
-                  14 Kwai Chow Street Deep Water Bay, Hong Kong
+                <p class="portfolio-cover-text">
+                  14 Kwaii Pages Work Demonstration App, Tracker App, Tax
+                  Massage App, Custom UI Storage.
                 </p>
               </div>
               <div class="portfolio-card-content">
@@ -358,15 +361,16 @@
               </div>
             </li>
             <li class="portfolio-item">
-              <div class="portfolio-card-wrap">
+              <div class="portfolio-cover-wrap">
                 <img
-                  src="./images/img-4.jpg"
+                  src="./images/portfolio-4.jpg"
                   alt="Taxi Service"
                   width="360"
                   height="300"
                 />
-                <p class="portfolio-overlay">
-                  14 Kwai Chow Street Deep Water Bay, Hong Kong
+                <p class="portfolio-cover-text">
+                  14 Kwaii Pages Work Demonstration App, Tracker App, Tax
+                  Massage App, Custom UI Storage.
                 </p>
               </div>
               <div class="portfolio-card-content">
@@ -375,15 +379,16 @@
               </div>
             </li>
             <li class="portfolio-item">
-              <div class="portfolio-card-wrap">
+              <div class="portfolio-cover-wrap">
                 <img
-                  src="./images/img-5.jpg"
+                  src="./images/portfolio-5.jpg"
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
                 />
-                <p class="portfolio-overlay">
-                  14 Kwai Chow Street Deep Water Bay, Hong Kong
+                <p class="portfolio-cover-text">
+                  14 Kwaii Pages Work Demonstration App, Tracker App, Tax
+                  Massage App, Custom UI Storage.
                 </p>
               </div>
               <div class="portfolio-card-content">
@@ -392,15 +397,16 @@
               </div>
             </li>
             <li class="portfolio-item">
-              <div class="portfolio-card-wrap">
+              <div class="portfolio-cover-wrap">
                 <img
-                  src="./images/img-6.jpg"
+                  src="./images/portfolio-6.jpg"
                   alt="Online Courses"
                   width="360"
                   height="300"
                 />
-                <p class="portfolio-overlay">
-                  14 Kwai Chow Street Deep Water Bay, Hong Kong
+                <p class="portfolio-cover-text">
+                  14 Kwaii Pages Work Demonstration App, Tracker App, Tax
+                  Massage App, Custom UI Storage.
                 </p>
               </div>
               <div class="portfolio-card-content">
@@ -417,8 +423,8 @@
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-info">
-          <a class="logo footer-logo" href="./index.html"
-            >Web<span class="logo-accent-footer">Studio</span></a
+          <a href="./index.html" class="logo footer-logo"
+            >WEB<span class="logo-accent">STUDIO</span></a
           >
           <p class="footer-text">
             Increase the flow of customers and sales for your business with
@@ -430,28 +436,28 @@
           <p class="footer-social-title">Social media</p>
           <ul class="social-list footer-social-list">
             <li class="social-item">
-              <a class="social-link footer-social-link" href="">
+              <a href="#" class="social-link footer-social-link">
                 <svg class="social-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link footer-social-link" href="">
+              <a href="#" class="social-link footer-social-link">
                 <svg class="social-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link footer-social-link" href="">
+              <a href="#" class="social-link footer-social-link">
                 <svg class="social-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-item">
-              <a class="social-link footer-social-link" href="">
+              <a href="#" class="social-link footer-social-link">
                 <svg class="social-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -460,28 +466,30 @@
           </ul>
         </div>
 
-        <!-- Footer Subscribe Form -->
-      <div class="footer-subscribe">
-  <p class="footer-subscribe-title">Subscribe</p>
-  <form class="footer-form">
-    <label class="footer-label">
-      <input
-        type="email"
-        name="footer-email"
-        class="footer-input"
-        placeholder="E-mail"
-        required
-      />
-    </label>
-    <button type="submit" class="footer-btn">
-      Subscribe
-      <svg class="footer-btn-icon" width="24" height="24">
-        <use href="./images/icons.svg#icon-send"></use>
-      </svg>
-    </button>
-  </form>
-</div>
-    <!-- Backdrop & Modal Window -->
+        <div class="footer-subscribe">
+          <p class="footer-subscribe-title">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-label">
+              <input
+                type="email"
+                name="footer-email"
+                class="footer-input"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button type="submit" class="footer-btn">
+              Subscribe
+              <svg class="footer-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal Window -->
     <div class="backdrop" id="modal" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
@@ -551,7 +559,6 @@
             ></textarea>
           </div>
 
-          <!-- Чекбокс за ТЗ -->
           <div class="modal-field-checkbox">
             <input
               type="checkbox"
@@ -578,5 +585,8 @@
         </form>
       </div>
     </div>
+
+    <!-- Script for Modal Toggle -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
